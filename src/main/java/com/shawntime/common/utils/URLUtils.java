@@ -15,7 +15,6 @@ public class URLUtils {
 
 	/**
 	 * 获得路径信息
-	 * 
 	 * @param request
 	 * @return
 	 */
@@ -25,7 +24,6 @@ public class URLUtils {
 
 	/**
 	 * 获得路径参数
-	 * 
 	 * @param request
 	 * @return
 	 */
