@@ -17,6 +17,7 @@ public class RedisService {
 
     private JedisPool jedisPool;
 
+    // 此类如果被错误创建了很多，岂不是很尴尬，建议控制为单例 
     public RedisService(JedisPoolConfig config, String ip, Integer port, int timeOut, int expired) {
         this.jedisPool = new JedisPool(config, ip, port, timeOut);
     }
